@@ -1,0 +1,64 @@
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-color: lightgray;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;;
+}
+
+.board {
+  /* background: rgb(233, 173, 173); */
+  background-image: url(/assets/img/Wicked-Woods-battle-map-cleansed-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.player {
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.obstacle {
+  background: rgba(243, 57, 11, 0.644);
+  background-image: url(/assets/img/gravel.png);
+  position: absolute;
+  z-index: 0;
+  border-radius: 5px;;
+}
+
+.player-lives {
+  color: rgb(173, 16, 16);
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.finish-line {
+  width: 40px;
+  height: 40px;
+  background: lightgreen;
+  position: absolute;
+  right: 0;
+  top: 230px;
+}
